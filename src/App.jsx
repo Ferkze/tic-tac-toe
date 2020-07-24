@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+
+import WelcomeHeader from './components/WelcomeHeader'
+
 import './App.css';
 
 function App() {
@@ -7,8 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <WelcomeHeader name="Sara" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to my first <code>Tic-tac-toe</code> code!
         </p>
         <a
           className="App-link"
@@ -16,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Start playing
         </a>
       </header>
     </div>
